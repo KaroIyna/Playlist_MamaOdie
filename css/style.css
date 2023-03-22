@@ -1,0 +1,115 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+ body{
+  background: linear-gradient(90deg, rgb(2, 51, 5) 0%, rgb(23, 145, 78) 35%, rgb(10, 126, 55))
+}
+
+.cabecalho {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 30px;
+  color: #fff; 
+  align-items: center;
+  margin: 20px; 
+  margin-bottom: 10px;
+
+}
+
+.titulo{
+  font-size: 15px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #fff;
+  margin-top: auto;
+}
+
+.banner {
+  display: flex;
+  margin-top: 10px;
+  width: 100%;
+  height: 330px;
+  border:  2px solid #525200;
+  border-left: none;
+  border-right: none;
+}
+.banner_img{
+  display: flex;
+  margin: 10px;
+  width: 50%;
+} 
+.banner_texto {
+  display: flex;
+  width: 100%;
+  margin: auto;
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #bfe3ca;
+
+}
+
+.cards{
+  display: flex;
+  margin-right: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1rem;
+  color: #fff;
+}
+.card_1{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 15%;
+  margin: 20px 80px;
+}
+
+.card_1:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+.card_2{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 15%;
+  margin: 20px 80px;
+}
+
+.card_2:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+.card_3{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 15%;
+  margin: 20px 80px;
+}
+
+.card_3:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+.card_4{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 15%;
+  margin: 20px 80px;
+}
+
+.card_4:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
